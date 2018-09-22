@@ -1,0 +1,13 @@
+a:hover {
+    color: orangered;
+    background: olive
+}
+input:required {
+    border: 1px dashed red;
+    height: 30px;
+  }
+  p:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
