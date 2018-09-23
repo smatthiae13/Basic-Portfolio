@@ -8,12 +8,10 @@
     text-align: center;
     margin-left: 29%;
 }
-.leftside {
-    display: none;
+.header {
+
 }
-.rightside {
-    display: none;
-}
+
 body { 
     background: #dddddd;
 }
@@ -23,16 +21,19 @@ body {
     padding: 1px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: .25em;
+
 }
 #links ul
 {
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: -48px;
+    list-style-type: none;
 }
 
-#links ul li
+#links  li
 {   float: right;
-    list-style-type: none;
+    padding: 7px;
     display: inline;
 }
 
@@ -52,10 +53,19 @@ body {
     height: 150px;
     border: black solid 1px;
 }
-.submit {
+#submit {
+    color: white
+    background-color: #4aaaa5;
+    width: 150px;
+    height: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
 }
 
+h4 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
 h2 {
     
     color: #4aaaa5;
@@ -106,6 +116,8 @@ h2 {
     text-align: center;
     width: 136px;
     font-size: small;
+    bottom: -29px;
+    color: #ffffff;
  }
  .RPG {
     position: relative;
@@ -114,32 +126,44 @@ h2 {
     text-align: center;
     padding: 8px;
     font-size: small;
+    bottom: 64px;
+    right: 0px;
+    color: #ffffff;
    
  }
- .Trivia {
+ .trivia {
     background: #4aaaa5;
     text-align: center;
     padding: 8px;
     font-size: small;
-    width: 136px;
+    width: 134px;
     position: relative;
+    bottom: 68px;
+    color: #ffffff;
     
  }
- .Rutgers {
+ .rutgers {
      background: #4aaaa5;
      text-align: center;
     padding: 8px;
     font-size: small;
-
+    position: relative;
+    bottom: 65px;
+    color: #ffffff;
  }
- .Rock {
+ .rock {
     background: #4aaaa5;
     text-align: center;
     padding: 8px;
     font-size: small;
+    position: relative;
+    bottom: 61px;
+    width: 134px;
+    right: -250px;
+    color: #ffffff;
  }
-hr {
-    color: #4aaaa5;
+ .bottomborder{
+   border-color: #4aaaa5;
     text: solid 3px;
 }
 .header {
