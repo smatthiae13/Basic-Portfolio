@@ -13,7 +13,9 @@
 }
 
 body { 
-    background: #dddddd;
+    
+    background-image: background: radial-gradient(circle, black, white);
+    
 }
 .copyright {
     background: #666666;
@@ -168,4 +170,81 @@ h2 {
 }
 .header {
     background: #ffffff;
+}
+nav ul {
+
+    margin: 0;
+
+    padding: 0
+
+}
+
+ 
+
+nav li {
+
+    list-style: none;
+
+    font-size: 12px;
+
+    float: right;
+
+    text-align: center;
+
+}
+
+ 
+
+nav li a {
+
+    display: block;
+
+    text-decoration: none;
+
+    margin-right: 0;   /* space between links */
+
+    width: auto;   /* adjust width as needed or use auto */
+
+    padding: 6px;
+
+    font-weight: bold;
+
+    line-height: 2em;
+
+    color:#1e5799;
+
+    border-right: 1px solid #000;
+
+}
+
+/**remove from last item**/
+
+nav li:first-child a {
+
+    border:none;
+
+}
+
+ 
+
+/**float clearing**/
+
+nav:after {
+
+     content: '';
+
+     clear:right;
+
+     display:block;
+
+}
+
+
+.background {
+  background-image: url("/pix/samples/bg1.gif");
+  background-position: 50% 50%;
+  background-repeat: repeat;
+}
+//*.background {
+    background-image: url("");
 }
