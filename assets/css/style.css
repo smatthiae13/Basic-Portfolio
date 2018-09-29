@@ -23,6 +23,7 @@ body {
     padding: 1px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: .25em;
+    position: sticky;
 
 }
 #links ul
@@ -44,29 +45,32 @@ body {
 }
 .rect {
     float: left;
-    width: 150px;
+    width: 482px;
     height: 30px;
-    border: black solid 1px;
+    border: black solid thin;
     position: relative;
 }
 .rect2 {
     float: left;
-    width: 150px;
+    width: 482px;
     height: 150px;
-    border: black solid 1px;
+    border: black solid thin;
 }
 #submit {
-    color: white
+    color: white;
     background-color: #4aaaa5;
-    width: 150px;
+    width: 130px;
     height: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
    
 }
 
 h4 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    margin-top: 6px;
+    margin-bottom: 2px;
 }
 h2 {
     
@@ -90,6 +94,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
+.row .contact {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
 .column {
     float: left;
     width: 50%;
@@ -110,15 +119,17 @@ h2 {
     top: 200px; 
     left: 0; 
     width: 100%; 
+    color: #4aaaa5;
+
  }
  .hangman {
-    position: absolute;
+    position: relative;
     background: #4aaaa5;
     padding: 8px;
     text-align: center;
     width: 136px;
     font-size: small;
-    bottom: -29px;
+    bottom: 66px;
     color: #ffffff;
  }
  .RPG {
@@ -140,7 +151,7 @@ h2 {
     font-size: small;
     width: 134px;
     position: relative;
-    bottom: 68px;
+    bottom: -144px;
     color: #ffffff;
     
  }
@@ -152,6 +163,7 @@ h2 {
     position: relative;
     bottom: 65px;
     color: #ffffff;
+    width: 134px;
  }
  .rock {
     background: #4aaaa5;
@@ -159,9 +171,9 @@ h2 {
     padding: 8px;
     font-size: small;
     position: relative;
-    bottom: 61px;
+    bottom: 277px;
     width: 134px;
-    right: -250px;
+    right: 0px;
     color: #ffffff;
  }
  .bottomborder{
@@ -241,7 +253,7 @@ nav:after {
 
 
 .background {
-  background-image: url("/pix/samples/bg1.gif");
+  background-image: url("/Users/test/Desktop/Basic-Portfolio/assets/images/gravel.png");
   background-position: 50% 50%;
   background-repeat: repeat;
 }
