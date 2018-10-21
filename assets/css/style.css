@@ -14,7 +14,7 @@
 
 body { 
     
-    background-image: background: radial-gradient(circle, black, white);
+     background: radial-gradient(circle, black, white);
     
 }
 .copyright {
@@ -34,8 +34,8 @@ body {
     list-style-type: none;
 }
 
-#links  li
-{   float: right;
+#links  li {
+    float: right;
     padding: 7px;
     display: inline;
 }
@@ -113,7 +113,7 @@ h2 {
     clear: both;
 }
 
-}
+
  h3 { 
      
     top: 200px; 
@@ -257,6 +257,6 @@ nav:after {
   background-position: 50% 50%;
   background-repeat: repeat;
 }
-//*.background {
+/*.background {
     background-image: url("");
 }
